@@ -53,11 +53,6 @@ ul,li,a{
 .header__list li{
     margin: 0 0 0 30px;
 }
-/* @media screen and (min-width:992px){
-    .header__list{
-        display: none;
-    }
-} */
 .content__title,.gallery__title{
     margin: 10px;
 }
