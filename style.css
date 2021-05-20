@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.wrapper{
+    min-height: 100%;
+    display: grid;
+    grid-template: minmax(100px,auto) 1fr minmax(70px,auto) / 1fr;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer"
+    ;
+}
+.header{
+    grid-area: header;
+    padding: 15px;
+    background-color: #794f45;
+}
+.footer{
+    background-color: #77608d;
+}
